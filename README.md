@@ -1,3 +1,4 @@
 ## KryptoKoin
 
-React Native Crypto Currency application.
+React Native Crypto Currency application. 
+WIP

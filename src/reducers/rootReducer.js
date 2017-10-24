@@ -4,7 +4,7 @@
  */
 
 import {combineReducers} from 'redux';
-import krypto from "kryptoReducer";
+import krypto from "./kryptoReducer";
 
 /**
  * Combines all reducers for use in the application

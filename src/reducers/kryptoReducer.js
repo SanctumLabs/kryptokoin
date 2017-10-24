@@ -14,8 +14,7 @@ import initialState from './initialState';
  * @return {Object} new state or initial state*/
 export default function kryptoReducer(state = initialState, action) {
     switch (action.type) {
-        // TODO: add types of actions
-        case types:
+        case types.ACTION:
             return state;
         default:
             return state;

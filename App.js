@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {Header} from "./src/index";
+import KryptoContainer from "./src/components/KryptoContainer"
 import configureStore from "./src/store/configureStore";
 import {Provider} from "react-redux";
 
@@ -13,6 +14,7 @@ export default class App extends Component {
             <Provider store={store}>
                 <View style={styles.container}>
                     <Header/>
+                    <KryptoContainer/>
                 </View>
             </Provider>
         );

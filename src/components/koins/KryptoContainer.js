@@ -7,8 +7,9 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import {View, Text} from "react-native";
-import * as actions from "../actions/koinActionCreator";
+import {View, Text, ScrollView} from "react-native";
+import * as actions from "../../actions/koinActionCreator";
+import KryptoKoin from "./KryptoKoin";
 
 /**
  * KryptoContainer container component
@@ -19,8 +20,26 @@ export class KryptoContainer extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-
+            koins: []
         }
+    }
+
+    /**
+     * Renders Koins onto View
+     * */
+    renderKoins() {
+        return this.state.koins.map((koin, index) => {
+            return (
+                <KryptoKoin
+                    key={index}
+                    coin_name={koin.name}
+                    symbol={koin.symbol}
+                    price_usd={koin.price_usd}
+                    percent_change_7h={koin.percent_change_7h}
+                    percent_change_24h={koin.percent_change_24h}
+                />
+            )
+        })
     }
 
     /**
@@ -29,7 +48,9 @@ export class KryptoContainer extends Component {
     componentDidMount() {
         this.props.actions.getKoinData()
             .then(data => {
-                
+                this.setState({
+                    koins: data
+                })
             })
             .catch(err => {
 

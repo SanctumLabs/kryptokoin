@@ -15,7 +15,7 @@ import {koinContainerStyles} from "./koinContainerStyles";
 
 const {
     contentContainer
-}  = koinContainerStyles;
+} = koinContainerStyles;
 
 /**
  * KryptoContainer container component
@@ -26,7 +26,8 @@ export class KryptoContainer extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            koins: []
+            koins: [],
+            isFetching: false
         };
 
         this.renderKoins = this.renderKoins.bind(this);
@@ -36,8 +37,8 @@ export class KryptoContainer extends Component {
      * Renders Koins onto View
      * */
     renderKoins() {
-        const { krypto } = this.props;
-        return krypto.data.map((koin, index) => {
+        const {krypto} = this.props;
+        return krypto.cryptoCurrencies.map((koin, index) => {
             return (
                 <KryptoKoin
                     key={index}
@@ -52,17 +53,61 @@ export class KryptoContainer extends Component {
     }
 
     /**
+     * Displays progress bar if there is an ongoing ajax request
+     * @param {Boolean} isFetching boolean value whether to display progress bar
+     * */
+    displayProgressBar(isFetching){
+        if (isFetching) {
+            return (
+                <View>
+                    <Spinner
+                        visible={isFetching}
+                        textContent={"Loading..."}
+                        textStyle={{
+                            color: "#253145"
+                        }}
+                        animation="fade"
+                    />
+                </View>
+            )
+        }
+
+    }
+
+    /**
+     * Component will receive Props
+     * @param {Object} nextProps props we shall receive
+     * */
+    componentWillReceiveProps(nextProps) {
+        const {isFetching} = nextProps.ajax;
+        this.setState(prevState => {
+            return Object.assign({}, prevState, {
+                isFetching: isFetching
+            });
+        })
+    }
+
+    /**
+     * Before the component mounts we display a progress bar
+     * */
+    componentWillMount() {
+        if(this.state.isFetching){
+
+        }
+    }
+
+    /**
      * Call fetch data after we have mounted the component
      * */
     componentDidMount() {
         this.props.actions.getKoinData()
-            .then(data => {
+            .then((response) => {
                 this.setState({
-                    koins: data
+                    koins: response
                 })
             })
             .catch(err => {
-                console.log("getKoinData Reject error",err);
+                console.log("getKoinData Reject error", err);
             })
     }
 
@@ -70,19 +115,10 @@ export class KryptoContainer extends Component {
      * Render container component
      */
     render() {
-        const {krypto} = this.props;
-        if(krypto.isFetching){
-            return(
-                <View>
-                    <Spinner
-                        visible={krypto.isFetching}
-                        textContent={"Loading..."}
-                        textStyle={{
-                            color:"#253145"
-                        }}
-                        animation="fade"
-                    />
-                </View>
+        const {isFetching} = this.state;
+        if (isFetching) {
+            return (
+                this.displayProgressBar(isFetching)
             )
         }
         return (
@@ -106,7 +142,8 @@ KryptoContainer.propTypes = {};
  */
 function mapStateToProps(state, ownProps) {
     return {
-        krypto: state.krypto
+        krypto: state.krypto,
+        ajax: state.ajax
     };
 }
 

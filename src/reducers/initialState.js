@@ -4,9 +4,15 @@
  */
 
 export default {
-    data: [],
-    ajaxCallsInProgress: 0,
-    isFetching: false,
-    hasError: false,
-    errorMessage: ""
+    krypto: {
+        cryptoCurrencies:[]
+    },
+    ajax :{
+        ajaxCallsInProgress: 0,
+        isFetching: false,
+    },
+    errors : {
+        hasError: false,
+        errorMessage: ""
+    }
 }

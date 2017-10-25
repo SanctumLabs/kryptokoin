@@ -2,18 +2,10 @@
  * @author lusinabrian on 25/10/17.
  * @notes: Action creators for fetching koin data
  */
-import * as types from "../constants/koinActionTypes";
+import * as types from "../actionTypes/koinActionTypes";
 import { getKoinDataApiCall } from "../api/kryptoKoinApi";
-import { beginAjaxCallAction, ajaxCallErrorAction, ajaxCallSuccessAction } from "./ajaxActionCreator";
-
-
-/**
- * fetch koin data action error
- * @param {Object} payload This is the payload information we get from the error object
- * */
-export function fetchKoinDataActionError(payload) {
-    return {type: types.FETCH_KOIN_DATA_ERROR, payload: payload}
-}
+import { beginAjaxCallAction, ajaxCallSuccessAction } from "./ajaxActionCreator";
+import { fetchKoinDataActionError, ajaxCallErrorAction } from "./errorActionCreator";
 
 /**
  * fetch koin data action success

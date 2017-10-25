@@ -7,9 +7,15 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import {View, Text, ScrollView} from "react-native";
+import {View, ScrollView} from "react-native";
 import * as actions from "../../actions/koinActionCreator";
 import KryptoKoin from "./KryptoKoin";
+import Spinner from "react-native-loading-spinner-overlay";
+import {koinContainerStyles} from "./koinContainerStyles";
+
+const {
+    contentContainer
+}  = koinContainerStyles;
 
 /**
  * KryptoContainer container component
@@ -21,21 +27,24 @@ export class KryptoContainer extends Component {
         super(props, context);
         this.state = {
             koins: []
-        }
+        };
+
+        this.renderKoins = this.renderKoins.bind(this);
     }
 
     /**
      * Renders Koins onto View
      * */
     renderKoins() {
-        return this.state.koins.map((koin, index) => {
+        const { krypto } = this.props;
+        return krypto.data.map((koin, index) => {
             return (
                 <KryptoKoin
                     key={index}
                     coin_name={koin.name}
                     symbol={koin.symbol}
                     price_usd={koin.price_usd}
-                    percent_change_7h={koin.percent_change_7h}
+                    percent_change_7d={koin.percent_change_7d}
                     percent_change_24h={koin.percent_change_24h}
                 />
             )
@@ -53,7 +62,7 @@ export class KryptoContainer extends Component {
                 })
             })
             .catch(err => {
-
+                console.log("getKoinData Reject error",err);
             })
     }
 
@@ -61,10 +70,25 @@ export class KryptoContainer extends Component {
      * Render container component
      */
     render() {
+        const {krypto} = this.props;
+        if(krypto.isFetching){
+            return(
+                <View>
+                    <Spinner
+                        visible={krypto.isFetching}
+                        textContent={"Loading..."}
+                        textStyle={{
+                            color:"#253145"
+                        }}
+                        animation="fade"
+                    />
+                </View>
+            )
+        }
         return (
-            <View>
-                <Text>KryptoContainer</Text>
-            </View>
+            <ScrollView contentContainerStyle={contentContainer}>
+                {this.renderKoins()}
+            </ScrollView>
         );
     }
 }

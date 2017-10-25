@@ -4,7 +4,7 @@
  */
 
 export default {
-    data: {},
+    data: [],
     ajaxCallsInProgress: 0,
     isFetching: false,
     hasError: false,

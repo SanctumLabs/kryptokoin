@@ -4,5 +4,9 @@
  */
 
 export default {
-
+    data: {},
+    ajaxCallsInProgress: 0,
+    isFetching: false,
+    hasError: false,
+    errorMessage: ""
 }

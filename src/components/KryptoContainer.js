@@ -7,8 +7,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import { View, Text} from "react-native";
-
+import {View, Text} from "react-native";
+import * as actions from "../actions/koinActionCreator";
 
 /**
  * KryptoContainer container component
@@ -18,7 +18,22 @@ import { View, Text} from "react-native";
 export class KryptoContainer extends Component {
     constructor(props, context) {
         super(props, context);
+        this.state = {
 
+        }
+    }
+
+    /**
+     * Call fetch data after we have mounted the component
+     * */
+    componentDidMount() {
+        this.props.actions.getKoinData()
+            .then(data => {
+                
+            })
+            .catch(err => {
+
+            })
     }
 
     /**
@@ -58,7 +73,7 @@ function mapStateToProps(state, ownProps) {
  */
 function mapDispatchToProps(dispatch) {
     return {
-        // actions: bindActionCreators(actions, dispatch)
+        actions: bindActionCreators(actions, dispatch)
     };
 }
 

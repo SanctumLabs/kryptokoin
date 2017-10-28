@@ -24,6 +24,9 @@ npm run start
 ```
 > This will run the application and start up a package server to serve the application. You will get a QR code which you can scan with the Expo app
 
+A quicker way with expo is to open this link on the Expo app:
+
+`exp://exp.host/@lusinabrian/kryptokoin `
 
 #### Screenshots
  

@@ -1,7 +1,6 @@
 ## KryptoKoin
 
 
-
 React Native Crypto Currency application showcasing the top 10 cryptocurrencies.
 
 ### Requirements

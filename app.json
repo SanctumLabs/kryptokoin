@@ -8,6 +8,7 @@
       "package": "com.kryptokoin"
     },
     "name": "kryptokoin",
+    "icon":"./assets/ic_kryptokoin.png",
     "slug": "kryptokoin",
     "version": "0.1.0",
     "isDetached": false,

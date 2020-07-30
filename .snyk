@@ -24,6 +24,8 @@ patch:
         patched: '2020-07-30T05:19:38.903Z'
     - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
         patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > @expo/ngrok > request > extend:
+        patched: '2020-07-30T05:28:53.427Z'
   'npm:hoek:20180212':
     - exp > xdl > joi > hoek:
         patched: '2020-07-30T05:19:38.903Z'
@@ -89,6 +91,14 @@ patch:
         patched: '2020-07-30T05:19:38.903Z'
     - remotedev-rn-debugger > remotedev-server > socketcluster > socketcluster-server > sc-auth > sc-jsonwebtoken > joi > topo > hoek:
         patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > @expo/ngrok > request > hawk > hoek:
+        patched: '2020-07-30T05:28:53.427Z'
+    - exp > xdl > @expo/ngrok > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:28:53.427Z'
+    - exp > xdl > @expo/ngrok > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:28:53.427Z'
+    - exp > xdl > @expo/ngrok > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:28:53.427Z'
   SNYK-JS-LODASH-567746:
     - exp > lodash:
         patched: '2020-07-30T05:19:38.903Z'
@@ -1966,6 +1976,16 @@ patch:
         patched: '2020-07-30T05:19:38.903Z'
     - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
         patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > inquirer > lodash:
+        patched: '2020-07-30T05:28:53.427Z'
+    - react-native > @react-native-community/cli > inquirer > lodash:
+        patched: '2020-07-30T05:28:53.427Z'
+    - react-native > @react-native-community/cli > metro > async > lodash:
+        patched: '2020-07-30T05:28:53.427Z'
+    - react-native > @react-native-community/cli > metro-config > metro > async > lodash:
+        patched: '2020-07-30T05:28:53.427Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro > async > lodash:
+        patched: '2020-07-30T05:28:53.427Z'
   'npm:moment:20170905':
     - exp > @expo/bunyan > moment:
         patched: '2020-07-30T05:19:38.903Z'
@@ -1996,6 +2016,8 @@ patch:
         patched: '2020-07-30T05:19:38.903Z'
     - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
         patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > @expo/ngrok > request > stringstream:
+        patched: '2020-07-30T05:28:53.427Z'
   SNYK-JS-TREEKILL-536781:
     - exp > xdl > tree-kill:
         patched: '2020-07-30T05:19:38.903Z'

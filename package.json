@@ -3,26 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "jest-expo": "^21.0.2",
-    "react-native-scripts": "1.5.0",
-    "react-test-renderer": "16.0.0-alpha.12",
+    "jest-expo": "^33.0.0",
+    "react-native-scripts": "2.0.0",
+    "react-test-renderer": "16.0.0",
     "redux-immutable-state-invariant": "^2.1.0",
     "redux-logger": "^3.0.6",
-    "exp": "^45.1.0",
-    "remote-redux-devtools": "^0.5.12",
+    "exp": "^53.0.0",
+    "remote-redux-devtools": "^0.5.13",
     "remotedev-rn-debugger": "^0.8.3"
   },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start-expo":"exp start",
-    "build-ios":"exp build:ios",
-    "build-android":"exp build:android",
-    "build-status":"exp build:status",
+    "start-expo": "exp start",
+    "build-ios": "exp build:ios",
+    "build-android": "exp build:android",
+    "build-status": "exp build:status",
     "start": "react-native-scripts start",
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "remotedev": {
     "hostname": "localhost",
@@ -36,11 +38,13 @@
     "expo": "^21.0.0",
     "prop-types": "^15.6.0",
     "react": "16.0.0-alpha.12",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-21.0.0.tar.gz",
+    "react-native": "0.63.0",
     "react-native-loading-spinner-overlay": "^0.5.2",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-promise": "^0.5.3",
-    "redux-thunk": "^2.2.0"
-  }
+    "redux-thunk": "^2.2.0",
+    "snyk": "^1.369.1"
+  },
+  "snyk": true
 }

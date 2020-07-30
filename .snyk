@@ -1,0 +1,2003 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - exp > @expo/ngrok > request > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > request > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > request > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > inquirer > external-editor > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > analytics-node > superagent > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > analytics-node > superagent > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > inquirer > external-editor > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2020-07-30T05:19:38.903Z'
+  'npm:hoek:20180212':
+    - exp > xdl > joi > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > joi > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > @expo/ngrok > request > hawk > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > request > hawk > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > request > hawk > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > joi > topo > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > joi > topo > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > @expo/ngrok > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > @expo/ngrok > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > @expo/ngrok > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > sc-auth > sc-jsonwebtoken > joi > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > sc-auth > sc-jsonwebtoken > joi > topo > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > socketcluster-server > sc-auth > sc-jsonwebtoken > joi > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > socketcluster-server > sc-auth > sc-jsonwebtoken > joi > topo > hoek:
+        patched: '2020-07-30T05:19:38.903Z'
+  SNYK-JS-LODASH-567746:
+    - exp > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-redux > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - redux > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > @expo/json-file > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > inquirer > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > inquirer > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remote-redux-devtools > redux-devtools-instrument > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remote-redux-devtools > remotedev-utils > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > @expo/vector-icons > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > react-native-svg > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > async > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > inquirer > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > @expo/schemer > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > @expo/schemer > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > analytics-node > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > analytics-node > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > react-redux > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > react-redux > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > redux > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > redux > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > @expo/vector-icons > react-native-vector-icons > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-react-transform > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > async > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > async > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > inquirer > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-decorators-legacy > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-react-transform > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-react-transform > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > sc-broker-cluster > async > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > socketcluster-server > async > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-decorators-legacy > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-30T05:19:38.903Z'
+  'npm:moment:20170905':
+    - exp > @expo/bunyan > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > @expo/bunyan > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > @expo/bunyan > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > @expo/bunyan > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > jsonwebtoken > joi > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > jsonwebtoken > joi > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > sc-auth > sc-jsonwebtoken > joi > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+    - remotedev-rn-debugger > remotedev-server > socketcluster > socketcluster-server > sc-auth > sc-jsonwebtoken > joi > moment:
+        patched: '2020-07-30T05:19:38.903Z'
+  'npm:stringstream:20180511':
+    - exp > @expo/ngrok > request > stringstream:
+        patched: '2020-07-30T05:19:38.903Z'
+    - exp > xdl > request > stringstream:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > request > stringstream:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2020-07-30T05:19:38.903Z'
+    - jest-expo > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2020-07-30T05:19:38.903Z'
+  SNYK-JS-TREEKILL-536781:
+    - exp > xdl > tree-kill:
+        patched: '2020-07-30T05:19:38.903Z'
+    - react-native-scripts > xdl > tree-kill:
+        patched: '2020-07-30T05:19:38.903Z'

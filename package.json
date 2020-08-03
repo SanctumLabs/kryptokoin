@@ -5,7 +5,7 @@
   "devDependencies": {
     "jest-expo": "^33.0.0",
     "react-native-scripts": "2.0.0",
-    "react-test-renderer": "16.0.0",
+    "react-test-renderer": "16.13.1",
     "redux-immutable-state-invariant": "^2.1.0",
     "redux-logger": "^3.0.6",
     "exp": "^53.0.0",
@@ -37,7 +37,7 @@
     "axios": "^0.18.1",
     "expo": "^21.0.0",
     "prop-types": "^15.6.0",
-    "react": "16.0.0-alpha.12",
+    "react": "16.13.1",
     "react-native": "0.63.0",
     "react-native-loading-spinner-overlay": "^0.5.2",
     "react-redux": "^5.0.6",

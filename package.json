@@ -40,7 +40,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.63.0",
     "react-native-loading-spinner-overlay": "^0.5.2",
-    "react-redux": "^5.0.6",
+    "react-redux": "^5.1.2",
     "redux": "^3.7.2",
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.2.0",

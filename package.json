@@ -10,7 +10,7 @@
     "redux-logger": "^3.0.6",
     "exp": "^53.0.0",
     "remote-redux-devtools": "^0.5.13",
-    "remotedev-rn-debugger": "^0.8.3"
+    "remotedev-rn-debugger": "^0.8.4"
   },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -34,15 +34,15 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.19.2",
     "expo": "^21.0.0",
     "prop-types": "^15.6.0",
     "react": "16.13.1",
-    "react-native": "0.63.0",
+    "react-native": "0.63.2",
     "react-native-loading-spinner-overlay": "^0.5.2",
-    "react-redux": "^5.0.6",
+    "react-redux": "^5.1.2",
     "redux": "^3.7.2",
-    "redux-promise": "^0.5.3",
+    "redux-promise": "^0.6.0",
     "redux-thunk": "^2.2.0",
     "snyk": "^1.369.1"
   },

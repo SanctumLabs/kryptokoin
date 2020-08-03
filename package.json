@@ -10,7 +10,7 @@
     "redux-logger": "^3.0.6",
     "exp": "^53.0.0",
     "remote-redux-devtools": "^0.5.13",
-    "remotedev-rn-debugger": "^0.8.3"
+    "remotedev-rn-debugger": "^0.8.4"
   },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {

@@ -8167,10 +8167,10 @@ react-native-safe-module@^1.1.0:
   dependencies:
     dedent "^0.6.0"
 
-react-native-scripts@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-scripts/-/react-native-scripts-2.0.0.tgz#3ba7107a1e943694e0dcfe062611c5ab09725845"
-  integrity sha512-D0K3uF5mPa+kceYC+aEJTFqJqzDTB//szotSJrTGiBagllQPeFns9h71G3yGHzsbLU13xMmdynb8tjuyPdBKdw==
+react-native-scripts@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-scripts/-/react-native-scripts-2.0.1.tgz#3c60353d5714816c486cb0f0b3b96f32d158dc00"
+  integrity sha512-iZrVOcPjlo8YjyJEdhlPED4XYMHxYTa4vNfz0TuEK18+zg74tN/Li5ndZ2a0/pQNtPyeH9XjqGKTwIxDiLpMAg==
   dependencies:
     babel-runtime "^6.9.2"
     chalk "^2.0.1"

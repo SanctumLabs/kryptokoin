@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "jest-expo": "^33.0.0",
-    "react-native-scripts": "2.0.1",
+    "react-native-scripts": "2.0.0",
     "react-test-renderer": "16.13.1",
     "redux-immutable-state-invariant": "^2.1.0",
     "redux-logger": "^3.0.6",
@@ -44,7 +44,7 @@
     "redux": "^3.7.2",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
-    "snyk": "^1.370.1"
+    "snyk": "^1.369.1"
   },
   "snyk": true
 }
